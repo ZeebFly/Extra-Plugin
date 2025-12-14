@@ -11,7 +11,7 @@ from ZeebMusic import app
 from ZeebMusic.core.mongo import mongodb
 from ZeebMusic.misc import SUDOERS
 
-TheApi = Client()
+#TheApi = Client()
 coupledb = {}
 greetingsdb = mongodb.greetings
 
