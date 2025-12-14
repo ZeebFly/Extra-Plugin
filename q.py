@@ -3,7 +3,7 @@ from io import BytesIO
 from httpx import AsyncClient, Timeout
 from pyrogram import filters
 from pyrogram.types import Message
-from YukkiMusic import app
+from ZeebMusic import app
 
 fetch = AsyncClient(
     http2=True,

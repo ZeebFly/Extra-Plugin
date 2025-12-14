@@ -1,5 +1,5 @@
 from pyrogram import enums, filters
-from YukkiMusic import app
+from ZeebMusic import app
 
 
 @app.on_message(filters.command("removephoto"))

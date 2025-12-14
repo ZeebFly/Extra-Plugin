@@ -2,7 +2,7 @@ import re
 
 from py_yt import VideosSearch
 from pyrogram import filters
-from YukkiMusic import app
+from ZeebMusic import app
 
 
 async def gen_infos(url):

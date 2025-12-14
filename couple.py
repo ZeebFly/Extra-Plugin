@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from YukkiMusic import app
+from ZeebMusic import app
 
 # get current date in GMT+5:30 timezone
 

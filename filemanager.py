@@ -5,8 +5,8 @@ import time
 from os.path import exists, isdir
 
 from pyrogram import filters
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
+from ZeebMusic import app
+from ZeebMusic.misc import SUDOERS
 
 MAX_MESSAGE_SIZE_LIMIT = 4090
 

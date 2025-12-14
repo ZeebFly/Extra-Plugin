@@ -3,8 +3,8 @@ from typing import Union
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import Message
-from YukkiMusic import app
-from YukkiMusic.core.mongo import mongodb
+from ZeebMusic import app
+from ZeebMusic.core.mongo import mongodb
 
 impdb = mongodb.impdb
 

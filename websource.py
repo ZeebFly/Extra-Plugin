@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-from YukkiMusic import app
+from ZeebMusic import app
 
 
 def download_website(url):

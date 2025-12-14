@@ -2,7 +2,7 @@ from config import BANNED_USERS
 from g4f.client import AsyncClient
 from pyrogram import filters
 from pyrogram.enums import ParseMode
-from YukkiMusic import app
+from ZeebMusic import app
 
 client = AsyncClient()
 

@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
-from YukkiMusic import app
+from ZeebMusic import app
 
 SPAM_CHATS = []
 

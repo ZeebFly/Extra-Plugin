@@ -2,7 +2,7 @@
 from pyrogram import filters
 from lexica import Client as LexicaClient
 from pyrogram.errors.exceptions.bad_request_400 import PhotoInvalidDimensions
-from YukkiMusic import app
+from ZeebMusic import app
 
 lexica_client = LexicaClient()
 

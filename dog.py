@@ -8,7 +8,7 @@ from pyrogram.types import (
     InputMediaPhoto,
     Message,
 )
-from YukkiMusic import app
+from ZeebMusic import app
 
 close_keyboard = InlineKeyboardMarkup(
     [

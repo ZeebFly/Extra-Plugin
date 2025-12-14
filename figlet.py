@@ -9,7 +9,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
 )
-from YukkiMusic import app
+from ZeebMusic import app
 
 
 def figle(text):

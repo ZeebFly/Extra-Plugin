@@ -15,7 +15,7 @@ from pyrogram.errors import (
 )
 from pyrogram.file_id import FileId
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from YukkiMusic import app
+from ZeebMusic import app
 
 BOT_USERNAME = app.username
 

@@ -1,32 +1,32 @@
-# Extra Plugins For [YukkiMusic](https://github.com/TheTeamVivek/YukkiMusic)
+# Extra Plugins For [ZeebMusic](https://github.com/TheTeamVivek/ZeebMusic)
 
 ## Introduction
 
-This repository contains extra plugins for the YukkiMusic bot, which enhance its functionalities and provide additional features. These plugins are designed to work seamlessly with the YukkiMusic bot and can be easily integrated into your existing setup.
+This repository contains extra plugins for the ZeebMusic bot, which enhance its functionalities and provide additional features. These plugins are designed to work seamlessly with the ZeebMusic bot and can be easily integrated into your existing setup.
 
-## Deployment for [YukkiMusic](https://github.com/TheTeamVivek/YukkiMusic)
+## Deployment for [ZeebMusic](https://github.com/TheTeamVivek/ZeebMusic)
 
 ### 🚀 Heroku Deployment
 
 Click the button below to deploy Yukki Music Bot on Heroku!
 If you encounter any error like "failed to app creation", then fork and deploy.
 
-[![Deploy To Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-teal?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/TheTeamVivek/YukkiMusic)
+[![Deploy To Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-teal?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/TheTeamVivek/ZeebMusic)
 
 ### 🔧 VPS Deployment
 
-1. Get your [Necessary Variables](https://github.com/TheTeamVivek/YukkiMusic/blob/master/sample.env)
-2. Clone the repo: `git clone https://github.com/TheTeamVivek/YukkiMusic && cd YukkiMusic`
+1. Get your [Necessary Variables](https://github.com/TheTeamVivek/ZeebMusic/blob/master/sample.env)
+2. Clone the repo: `git clone https://github.com/TheTeamVivek/ZeebMusic && cd ZeebMusic`
 3. Set up by: `bash setup`
 4. Install tmux to keep running your bot when you close the terminal by: `sudo apt install tmux && tmux`
-5. Finally, run the bot by: `python3 -m YukkiMusic`
+5. Finally, run the bot by: `python3 -m ZeebMusic`
 6. To exit from tmux session: Press `Ctrl+b` and then `d`
 
-For more help, check out [YukkiMusic](https://github.com/TheTeamVivek/YukkiMusic).
+For more help, check out [ZeebMusic](https://github.com/TheTeamVivek/ZeebMusic).
 
 ## Plugins Overview
 
-This repository includes various plugins that extend the capabilities of the YukkiMusic bot. These plugins utilize the `app` client (Pyrogram), `logger` (initialized client of logging), and `utils` (utility functions) without needing to import them explicitly.
+This repository includes various plugins that extend the capabilities of the ZeebMusic bot. These plugins utilize the `app` client (Pyrogram), `logger` (initialized client of logging), and `utils` (utility functions) without needing to import them explicitly.
 
 ### Example Usage
 
@@ -39,7 +39,7 @@ These are some attributes of [`utils`](https://github.com/TheTeamVivek/Extra-Plu
 
 You also can use the `app` That is Pyrogram Client without importing and same as with `logger` for logging purposes like logger.info("Hello World")
 
-You can also leverage the dynamic attributes added in [`YukkiMusic/core/bot.py`](https://github.com/TheTeamVivek/YukkiMusic/blob/master/YukkiMusic/core/bot.py) to enhance your plugins.
+You can also leverage the dynamic attributes added in [`ZeebMusic/core/bot.py`](https://github.com/TheTeamVivek/ZeebMusic/blob/master/ZeebMusic/core/bot.py) to enhance your plugins.
 
 ## Contributing
 
@@ -61,4 +61,4 @@ Special thanks to all the contributors and the open-source community for their s
 
 ---
 
-For more information and updates, visit the [YukkiMusic](https://github.com/TheTeamVivek/YukkiMusic) repository.
+For more information and updates, visit the [ZeebMusic](https://github.com/TheTeamVivek/ZeebMusic) repository.
