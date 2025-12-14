@@ -16,7 +16,7 @@ from ZeebMusic.utils.database import is_gbanned_user
 from ZeebMusic.utils.functions import check_format, extract_text_and_keyb
 from ZeebMusic.utils.keyboard import ikb
 
-from utils import extract_urls
+from .utils import extract_urls
 
 
 async def handle_new_member(member, chat):
