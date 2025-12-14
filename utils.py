@@ -6,7 +6,7 @@ from traceback import format_exc as err
 from config import LOG_GROUP_ID
 from pyrogram.errors import ChatWriteForbidden
 from pyrogram.types import Message
-from TheApi import Client
+#from TheApi import Client
 from ZeebMusic import app
 from ZeebMusic.core.mongo import mongodb
 from ZeebMusic.misc import SUDOERS
@@ -324,3 +324,4 @@ def extract_urls(reply_markup):
                         else f"button{i * len(row) + j + 1}"
                     )
                     urls.append((f"{name}", button.text, button.url))
+    return urls
